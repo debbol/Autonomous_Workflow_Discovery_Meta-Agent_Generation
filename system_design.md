@@ -54,10 +54,9 @@ output/
 │ └── ... (additional pattern folders)
 └── generation_summary.json # Summary of all generated agents
 
-text
 
 ## 1. Overview
-This system analyzes desktop activity data from SQLite database, extracts workflows from user actions and screenshots, and dynamically generates autonomous agents to execute these workflows.
+This system analyzes desktop activity data from a SQLite database, extracts workflows from user actions and screenshots, and dynamically generates autonomous agents to execute these workflows.
 
 ## 2. Architecture
 
@@ -136,4 +135,5 @@ The system is designed to be extended with:
 - Computer vision integration for screenshot analysis
 - Machine learning for improved pattern matching
 - Cloud deployment capabilities
+
 
