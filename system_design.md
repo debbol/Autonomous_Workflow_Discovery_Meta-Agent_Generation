@@ -1,61 +1,58 @@
 # System Design Document: Autonomous Workflow Discovery & Meta-Agent Generation
-# System Design Document: Autonomous Workflow Discovery & Meta-Agent Generation
 
 ## Project File Structure
+
 workflow-discovery-agent/
 ├── src/
-│ ├── task1_workflow_extractor/
-│ │ ├── init.py
-│ │ ├── data_loader.py
-│ │ ├── workflow_extractor.py
-│ │ ├── pattern_matcher.py
-│ │ └── repetition_counter.py
-│ ├── task2_meta_agent/
-│ │ ├── init.py
-│ │ ├── agent_builder.py
-│ │ ├── code_generator.py
-│ │ └── workflow_executor.py
-│ ├── models/
-│ │ ├── init.py
-│ │ ├── event_models.py
-│ │ └── workflow_schema.py
-│ ├── utils/
-│ │ ├── init.py
-│ │ ├── image_analyzer.py
-│ │ └── db_utils.py
-│ └── main.py
+│   ├── task1_workflow_extractor/
+│   │   ├── __init__.py
+│   │   ├── data_loader.py
+│   │   ├── workflow_extractor.py
+│   │   ├── pattern_matcher.py
+│   │   └── repetition_counter.py
+│   ├── task2_meta_agent/
+│   │   ├── __init__.py
+│   │   ├── agent_builder.py
+│   │   ├── code_generator.py
+│   │   └── workflow_executor.py
+│   ├── models/
+│   │   ├── __init__.py
+│   │   ├── event_models.py
+│   │   └── workflow_schema.py
+│   ├── utils/
+│   │   ├── __init__.py
+│   │   ├── image_analyzer.py
+│   │   └── db_utils.py
+│   └── main.py
 ├── tests/
-│ └── test_workflow_extractor.py
+│   └── test_workflow_extractor.py
 ├── output/
-│ ├── extracted_workflows/
-│ └── generated_agents/
+│   ├── extracted_workflows/
+│   └── generated_agents/
 ├── requirements.txt
 ├── README.md
 ├── system_design.md
 └── .gitignore
 
-text
-
 ## Output Directory Structure (after execution)
+
 output/
 ├── extracted_workflows/
-│ ├── EMP-0025_workflows.json # Raw workflows for employee EMP-0025
-│ ├── EMP-0025_patterns.json # Patterns with repetition counts
-│ ├── EMP-0028_workflows.json
-│ ├── EMP-0028_patterns.json
-│ ├── EMP-0053_workflows.json
-│ └── EMP-0053_patterns.json
+│   ├── EMP-0025_workflows.json      # Raw workflows for employee EMP-0025
+│   ├── EMP-0025_patterns.json       # Patterns with repetition counts
+│   ├── EMP-0028_workflows.json
+│   ├── EMP-0028_patterns.json
+│   ├── EMP-0053_workflows.json
+│   └── EMP-0053_patterns.json
 ├── generated_agents/
-│ ├── P_99beac74/ # Pattern ID folder
-│ │ ├── agent.py # Executable agent script
-│ │ └── config.json # Agent configuration
-│ ├── P_48e8f29c/
-│ │ ├── agent.py
-│ │ └── config.json
-│ └── ... (additional pattern folders)
-└── generation_summary.json # Summary of all generated agents
-
-text
+│   ├── P_99beac74/                   # Pattern ID folder
+│   │   ├── agent.py                   # Executable agent script
+│   │   └── config.json                 # Agent configuration
+│   ├── P_48e8f29c/
+│   │   ├── agent.py
+│   │   └── config.json
+│   └── ... (additional pattern folders)
+└── generation_summary.json            # Summary of all generated agents
 
 ## 1. Overview
 This system analyzes desktop activity data from a SQLite database, extracts workflows from user actions and screenshots, and dynamically generates autonomous agents to execute these workflows.
@@ -137,6 +134,3 @@ The system is designed to be extended with:
 - Computer vision integration for screenshot analysis
 - Machine learning for improved pattern matching
 - Cloud deployment capabilities
-
-
-
