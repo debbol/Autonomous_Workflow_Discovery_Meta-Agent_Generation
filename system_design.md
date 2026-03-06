@@ -1,5 +1,47 @@
 # System Design Document: Autonomous Workflow Discovery & Meta-Agent Generation
+# file structure
 
+workflow-discovery-agent/
+├── src/
+│   ├── task1_workflow_extractor/
+│   │   ├── __init__.py
+│   │   ├── data_loader.py
+│   │   ├── workflow_extractor.py
+│   │   ├── pattern_matcher.py
+│   │   └── repetition_counter.py
+│   ├── task2_meta_agent/
+│   │   ├── __init__.py
+│   │   ├── agent_builder.py
+│   │   ├── code_generator.py
+│   │   └── workflow_executor.py
+│   ├── models/
+│   │   ├── workflow_schema.py
+│   │   └── event_models.py
+│   └── utils/
+│       ├── image_analyzer.py
+│       └── db_utils.py
+├── tests/
+├── output/
+│   ├── extracted_workflows/
+│   └── generated_agents/
+├── requirements.txt
+├── README.md
+└── system_design.md
+
+##Output Structure 
+
+output/
+├── extracted_workflows/
+│   ├── EMP-0025_workflows.json
+│   ├── EMP-0025_patterns.json
+│   └── ...
+└── generated_agents/
+    ├── P_abc12345/
+    │   ├── agent.py
+    │   └── config.json
+    └── ...
+
+    
 ## 1. Overview
 This system analyzes desktop activity data from SQLite database, extracts workflows from user actions and screenshots, and dynamically generates autonomous agents to execute these workflows.
 
