@@ -1,0 +1,1469 @@
+{
+  "total_patterns": 57,
+  "total_agents": 32,
+  "agents": [
+    {
+      "pattern_id": "P_f808ef52",
+      "path": "output/generated_agents/P_f808ef52/agent.py",
+      "config": {
+        "pattern_id": "P_f808ef52",
+        "signature": "type->paste",
+        "repetition_stats": {
+          "daily": {
+            "2026-02-23": 2,
+            "2026-02-24": 0,
+            "2026-02-25": 0,
+            "2026-02-26": 0
+          },
+          "2_day_persistence": false,
+          "3_day_persistence": false,
+          "4_day_persistence": false,
+          "total_occurrences": 2,
+          "unique_days": 1
+        },
+        "steps_config": [
+          {
+            "action_type": "type",
+            "details": {
+              "app_name": "Word",
+              "window_title": "Sample Window",
+              "event_type": "Type",
+              "text": "sample text",
+              "timestamp": "2026-02-23 09:52:00"
+            },
+            "validation_required": true
+          },
+          {
+            "action_type": "paste",
+            "details": {
+              "app_name": "Word",
+              "window_title": "Sample Window",
+              "event_type": "Paste",
+              "content": null,
+              "timestamp": "2026-02-23 09:55:00"
+            },
+            "validation_required": true
+          }
+        ]
+      }
+    },
+    {
+      "pattern_id": "P_274f8821",
+      "path": "output/generated_agents/P_274f8821/agent.py",
+      "config": {
+        "pattern_id": "P_274f8821",
+        "signature": "navigate->app_switch",
+        "repetition_stats": {
+          "daily": {
+            "2026-02-23": 1,
+            "2026-02-24": 1,
+            "2026-02-25": 0,
+            "2026-02-26": 0
+          },
+          "2_day_persistence": true,
+          "3_day_persistence": false,
+          "4_day_persistence": false,
+          "total_occurrences": 2,
+          "unique_days": 2
+        },
+        "steps_config": [
+          {
+            "action_type": "navigate",
+            "details": {
+              "app_name": "Excel",
+              "window_title": "Sample Window",
+              "event_type": "Navigate",
+              "url": "https://example.com",
+              "timestamp": "2026-02-23 09:57:00"
+            },
+            "validation_required": true
+          },
+          {
+            "action_type": "app_switch",
+            "details": {
+              "app_name": "Chrome",
+              "window_title": "Sample Window",
+              "event_type": "App Switch",
+              "timestamp": "2026-02-23 10:00:00"
+            },
+            "validation_required": true
+          }
+        ]
+      }
+    },
+    {
+      "pattern_id": "P_d22e6fc6",
+      "path": "output/generated_agents/P_d22e6fc6/agent.py",
+      "config": {
+        "pattern_id": "P_d22e6fc6",
+        "signature": "app_switch->app_switch",
+        "repetition_stats": {
+          "daily": {
+            "2026-02-23": 1,
+            "2026-02-24": 0,
+            "2026-02-25": 1,
+            "2026-02-26": 0
+          },
+          "2_day_persistence": true,
+          "3_day_persistence": false,
+          "4_day_persistence": false,
+          "total_occurrences": 2,
+          "unique_days": 2
+        },
+        "steps_config": [
+          {
+            "action_type": "app_switch",
+            "details": {
+              "app_name": "Excel",
+              "window_title": "Sample Window",
+              "event_type": "App Switch",
+              "timestamp": "2026-02-23 11:23:00"
+            },
+            "validation_required": true
+          },
+          {
+            "action_type": "app_switch",
+            "details": {
+              "app_name": "Word",
+              "window_title": "Sample Window",
+              "event_type": "App Switch",
+              "timestamp": "2026-02-23 11:28:00"
+            },
+            "validation_required": true
+          }
+        ]
+      }
+    },
+    {
+      "pattern_id": "P_db23b00d",
+      "path": "output/generated_agents/P_db23b00d/agent.py",
+      "config": {
+        "pattern_id": "P_db23b00d",
+        "signature": "copy->app_switch",
+        "repetition_stats": {
+          "daily": {
+            "2026-02-23": 1,
+            "2026-02-24": 0,
+            "2026-02-25": 0,
+            "2026-02-26": 1
+          },
+          "2_day_persistence": true,
+          "3_day_persistence": false,
+          "4_day_persistence": false,
+          "total_occurrences": 2,
+          "unique_days": 2
+        },
+        "steps_config": [
+          {
+            "action_type": "copy",
+            "details": {
+              "app_name": "Chrome",
+              "window_title": "Sample Window",
+              "event_type": "Copy",
+              "content": null,
+              "timestamp": "2026-02-23 12:19:00"
+            },
+            "validation_required": true
+          },
+          {
+            "action_type": "app_switch",
+            "details": {
+              "app_name": "Excel",
+              "window_title": "Sample Window",
+              "event_type": "App Switch",
+              "timestamp": "2026-02-23 12:24:00"
+            },
+            "validation_required": true
+          }
+        ]
+      }
+    },
+    {
+      "pattern_id": "P_ed2c72dd",
+      "path": "output/generated_agents/P_ed2c72dd/agent.py",
+      "config": {
+        "pattern_id": "P_ed2c72dd",
+        "signature": "navigate->type",
+        "repetition_stats": {
+          "daily": {
+            "2026-02-23": 1,
+            "2026-02-24": 0,
+            "2026-02-25": 1,
+            "2026-02-26": 0
+          },
+          "2_day_persistence": true,
+          "3_day_persistence": false,
+          "4_day_persistence": false,
+          "total_occurrences": 2,
+          "unique_days": 2
+        },
+        "steps_config": [
+          {
+            "action_type": "navigate",
+            "details": {
+              "app_name": "Chrome",
+              "window_title": "Sample Window",
+              "event_type": "Navigate",
+              "url": "https://example.com",
+              "timestamp": "2026-02-23 13:53:00"
+            },
+            "validation_required": true
+          },
+          {
+            "action_type": "type",
+            "details": {
+              "app_name": "Word",
+              "window_title": "Sample Window",
+              "event_type": "Type",
+              "text": "sample text",
+              "timestamp": "2026-02-23 13:58:00"
+            },
+            "validation_required": true
+          }
+        ]
+      }
+    },
+    {
+      "pattern_id": "P_d432a3a2",
+      "path": "output/generated_agents/P_d432a3a2/agent.py",
+      "config": {
+        "pattern_id": "P_d432a3a2",
+        "signature": "type->type",
+        "repetition_stats": {
+          "daily": {
+            "2026-02-23": 1,
+            "2026-02-24": 0,
+            "2026-02-25": 0,
+            "2026-02-26": 1
+          },
+          "2_day_persistence": true,
+          "3_day_persistence": false,
+          "4_day_persistence": false,
+          "total_occurrences": 2,
+          "unique_days": 2
+        },
+        "steps_config": [
+          {
+            "action_type": "type",
+            "details": {
+              "app_name": "Chrome",
+              "window_title": "Sample Window",
+              "event_type": "Type",
+              "text": "sample text",
+              "timestamp": "2026-02-23 14:02:00"
+            },
+            "validation_required": true
+          },
+          {
+            "action_type": "type",
+            "details": {
+              "app_name": "Chrome",
+              "window_title": "Sample Window",
+              "event_type": "Type",
+              "text": "sample text",
+              "timestamp": "2026-02-23 14:03:00"
+            },
+            "validation_required": true
+          }
+        ]
+      }
+    },
+    {
+      "pattern_id": "P_f17c8ce5",
+      "path": "output/generated_agents/P_f17c8ce5/agent.py",
+      "config": {
+        "pattern_id": "P_f17c8ce5",
+        "signature": "navigate->copy",
+        "repetition_stats": {
+          "daily": {
+            "2026-02-23": 1,
+            "2026-02-24": 1,
+            "2026-02-25": 0,
+            "2026-02-26": 0
+          },
+          "2_day_persistence": true,
+          "3_day_persistence": false,
+          "4_day_persistence": false,
+          "total_occurrences": 2,
+          "unique_days": 2
+        },
+        "steps_config": [
+          {
+            "action_type": "navigate",
+            "details": {
+              "app_name": "Slack",
+              "window_title": "Sample Window",
+              "event_type": "Navigate",
+              "url": "https://example.com",
+              "timestamp": "2026-02-23 14:07:00"
+            },
+            "validation_required": true
+          },
+          {
+            "action_type": "copy",
+            "details": {
+              "app_name": "Slack",
+              "window_title": "Sample Window",
+              "event_type": "Copy",
+              "content": null,
+              "timestamp": "2026-02-23 14:12:00"
+            },
+            "validation_required": true
+          }
+        ]
+      }
+    },
+    {
+      "pattern_id": "P_634946f4",
+      "path": "output/generated_agents/P_634946f4/agent.py",
+      "config": {
+        "pattern_id": "P_634946f4",
+        "signature": "click->type",
+        "repetition_stats": {
+          "daily": {
+            "2026-02-23": 0,
+            "2026-02-24": 1,
+            "2026-02-25": 1,
+            "2026-02-26": 0
+          },
+          "2_day_persistence": true,
+          "3_day_persistence": false,
+          "4_day_persistence": false,
+          "total_occurrences": 2,
+          "unique_days": 2
+        },
+        "steps_config": [
+          {
+            "action_type": "click",
+            "details": {
+              "app_name": "Chrome",
+              "window_title": "Sample Window",
+              "event_type": "Click",
+              "x": 774,
+              "y": 306,
+              "timestamp": "2026-02-24 09:39:00"
+            },
+            "validation_required": true
+          },
+          {
+            "action_type": "type",
+            "details": {
+              "app_name": "Word",
+              "window_title": "Sample Window",
+              "event_type": "Type",
+              "text": "sample text",
+              "timestamp": "2026-02-24 10:00:00"
+            },
+            "validation_required": true
+          }
+        ]
+      }
+    },
+    {
+      "pattern_id": "P_99beac74",
+      "path": "output/generated_agents/P_99beac74/agent.py",
+      "config": {
+        "pattern_id": "P_99beac74",
+        "signature": "type->app_switch",
+        "repetition_stats": {
+          "daily": {
+            "2026-02-23": 0,
+            "2026-02-24": 1,
+            "2026-02-25": 1,
+            "2026-02-26": 0
+          },
+          "2_day_persistence": true,
+          "3_day_persistence": false,
+          "4_day_persistence": false,
+          "total_occurrences": 2,
+          "unique_days": 2
+        },
+        "steps_config": [
+          {
+            "action_type": "type",
+            "details": {
+              "app_name": "Word",
+              "window_title": "Sample Window",
+              "event_type": "Type",
+              "text": "sample text",
+              "timestamp": "2026-02-24 10:00:00"
+            },
+            "validation_required": true
+          },
+          {
+            "action_type": "app_switch",
+            "details": {
+              "app_name": "Excel",
+              "window_title": "Sample Window",
+              "event_type": "App Switch",
+              "timestamp": "2026-02-24 10:04:00"
+            },
+            "validation_required": true
+          }
+        ]
+      }
+    },
+    {
+      "pattern_id": "P_48e8f29c",
+      "path": "output/generated_agents/P_48e8f29c/agent.py",
+      "config": {
+        "pattern_id": "P_48e8f29c",
+        "signature": "paste->paste",
+        "repetition_stats": {
+          "daily": {
+            "2026-02-23": 0,
+            "2026-02-24": 1,
+            "2026-02-25": 1,
+            "2026-02-26": 0
+          },
+          "2_day_persistence": true,
+          "3_day_persistence": false,
+          "4_day_persistence": false,
+          "total_occurrences": 2,
+          "unique_days": 2
+        },
+        "steps_config": [
+          {
+            "action_type": "paste",
+            "details": {
+              "app_name": "Slack",
+              "window_title": "Sample Window",
+              "event_type": "Paste",
+              "content": null,
+              "timestamp": "2026-02-24 12:15:00"
+            },
+            "validation_required": true
+          },
+          {
+            "action_type": "paste",
+            "details": {
+              "app_name": "Excel",
+              "window_title": "Sample Window",
+              "event_type": "Paste",
+              "content": null,
+              "timestamp": "2026-02-24 12:18:00"
+            },
+            "validation_required": true
+          }
+        ]
+      }
+    },
+    {
+      "pattern_id": "P_03f97331",
+      "path": "output/generated_agents/P_03f97331/agent.py",
+      "config": {
+        "pattern_id": "P_03f97331",
+        "signature": "copy->click",
+        "repetition_stats": {
+          "daily": {
+            "2026-02-23": 0,
+            "2026-02-24": 1,
+            "2026-02-25": 0,
+            "2026-02-26": 1
+          },
+          "2_day_persistence": true,
+          "3_day_persistence": false,
+          "4_day_persistence": false,
+          "total_occurrences": 2,
+          "unique_days": 2
+        },
+        "steps_config": [
+          {
+            "action_type": "copy",
+            "details": {
+              "app_name": "Chrome",
+              "window_title": "Sample Window",
+              "event_type": "Copy",
+              "content": null,
+              "timestamp": "2026-02-24 14:57:00"
+            },
+            "validation_required": true
+          },
+          {
+            "action_type": "click",
+            "details": {
+              "app_name": "Word",
+              "window_title": "Sample Window",
+              "event_type": "Click",
+              "x": 243,
+              "y": 321,
+              "timestamp": "2026-02-24 15:00:00"
+            },
+            "validation_required": true
+          }
+        ]
+      }
+    },
+    {
+      "pattern_id": "P_93e4c101",
+      "path": "output/generated_agents/P_93e4c101/agent.py",
+      "config": {
+        "pattern_id": "P_93e4c101",
+        "signature": "paste->copy",
+        "repetition_stats": {
+          "daily": {
+            "2026-02-23": 0,
+            "2026-02-24": 0,
+            "2026-02-25": 1,
+            "2026-02-26": 1
+          },
+          "2_day_persistence": true,
+          "3_day_persistence": false,
+          "4_day_persistence": false,
+          "total_occurrences": 2,
+          "unique_days": 2
+        },
+        "steps_config": [
+          {
+            "action_type": "paste",
+            "details": {
+              "app_name": "Excel",
+              "window_title": "Sample Window",
+              "event_type": "Paste",
+              "content": null,
+              "timestamp": "2026-02-25 09:52:00"
+            },
+            "validation_required": true
+          },
+          {
+            "action_type": "copy",
+            "details": {
+              "app_name": "Chrome",
+              "window_title": "Sample Window",
+              "event_type": "Copy",
+              "content": null,
+              "timestamp": "2026-02-25 09:54:00"
+            },
+            "validation_required": true
+          }
+        ]
+      }
+    },
+    {
+      "pattern_id": "P_92dba359",
+      "path": "output/generated_agents/P_92dba359/agent.py",
+      "config": {
+        "pattern_id": "P_92dba359",
+        "signature": "app_switch->click",
+        "repetition_stats": {
+          "daily": {
+            "2026-02-23": 1,
+            "2026-02-24": 0,
+            "2026-02-25": 0,
+            "2026-02-26": 1
+          },
+          "2_day_persistence": true,
+          "3_day_persistence": false,
+          "4_day_persistence": false,
+          "total_occurrences": 2,
+          "unique_days": 2
+        },
+        "steps_config": [
+          {
+            "action_type": "app_switch",
+            "details": {
+              "app_name": "Word",
+              "window_title": "Sample Window",
+              "event_type": "App Switch",
+              "timestamp": "2026-02-23 10:51:00"
+            },
+            "validation_required": true
+          },
+          {
+            "action_type": "click",
+            "details": {
+              "app_name": "Slack",
+              "window_title": "Sample Window",
+              "event_type": "Click",
+              "x": 200,
+              "y": 754,
+              "timestamp": "2026-02-23 10:53:00"
+            },
+            "validation_required": true
+          }
+        ]
+      }
+    },
+    {
+      "pattern_id": "P_409bb545",
+      "path": "output/generated_agents/P_409bb545/agent.py",
+      "config": {
+        "pattern_id": "P_409bb545",
+        "signature": "click->navigate",
+        "repetition_stats": {
+          "daily": {
+            "2026-02-23": 1,
+            "2026-02-24": 0,
+            "2026-02-25": 1,
+            "2026-02-26": 0
+          },
+          "2_day_persistence": true,
+          "3_day_persistence": false,
+          "4_day_persistence": false,
+          "total_occurrences": 2,
+          "unique_days": 2
+        },
+        "steps_config": [
+          {
+            "action_type": "click",
+            "details": {
+              "app_name": "Slack",
+              "window_title": "Sample Window",
+              "event_type": "Click",
+              "x": 200,
+              "y": 754,
+              "timestamp": "2026-02-23 10:53:00"
+            },
+            "validation_required": true
+          },
+          {
+            "action_type": "navigate",
+            "details": {
+              "app_name": "Excel",
+              "window_title": "Sample Window",
+              "event_type": "Navigate",
+              "url": "https://example.com",
+              "timestamp": "2026-02-23 10:55:00"
+            },
+            "validation_required": true
+          }
+        ]
+      }
+    },
+    {
+      "pattern_id": "P_a71a67b0",
+      "path": "output/generated_agents/P_a71a67b0/agent.py",
+      "config": {
+        "pattern_id": "P_a71a67b0",
+        "signature": "app_switch->copy",
+        "repetition_stats": {
+          "daily": {
+            "2026-02-23": 1,
+            "2026-02-24": 0,
+            "2026-02-25": 1,
+            "2026-02-26": 0
+          },
+          "2_day_persistence": true,
+          "3_day_persistence": false,
+          "4_day_persistence": false,
+          "total_occurrences": 2,
+          "unique_days": 2
+        },
+        "steps_config": [
+          {
+            "action_type": "app_switch",
+            "details": {
+              "app_name": "Excel",
+              "window_title": "Sample Window",
+              "event_type": "App Switch",
+              "timestamp": "2026-02-23 11:29:00"
+            },
+            "validation_required": true
+          },
+          {
+            "action_type": "copy",
+            "details": {
+              "app_name": "Excel",
+              "window_title": "Sample Window",
+              "event_type": "Copy",
+              "content": null,
+              "timestamp": "2026-02-23 11:32:00"
+            },
+            "validation_required": true
+          }
+        ]
+      }
+    },
+    {
+      "pattern_id": "P_b9bd9d3b",
+      "path": "output/generated_agents/P_b9bd9d3b/agent.py",
+      "config": {
+        "pattern_id": "P_b9bd9d3b",
+        "signature": "app_switch->paste",
+        "repetition_stats": {
+          "daily": {
+            "2026-02-23": 1,
+            "2026-02-24": 1,
+            "2026-02-25": 0,
+            "2026-02-26": 0
+          },
+          "2_day_persistence": true,
+          "3_day_persistence": false,
+          "4_day_persistence": false,
+          "total_occurrences": 2,
+          "unique_days": 2
+        },
+        "steps_config": [
+          {
+            "action_type": "app_switch",
+            "details": {
+              "app_name": "Excel",
+              "window_title": "Sample Window",
+              "event_type": "App Switch",
+              "timestamp": "2026-02-23 12:33:00"
+            },
+            "validation_required": true
+          },
+          {
+            "action_type": "paste",
+            "details": {
+              "app_name": "Chrome",
+              "window_title": "Sample Window",
+              "event_type": "Paste",
+              "content": null,
+              "timestamp": "2026-02-23 12:34:00"
+            },
+            "validation_required": true
+          }
+        ]
+      }
+    },
+    {
+      "pattern_id": "P_55cadb71",
+      "path": "output/generated_agents/P_55cadb71/agent.py",
+      "config": {
+        "pattern_id": "P_55cadb71",
+        "signature": "paste->click",
+        "repetition_stats": {
+          "daily": {
+            "2026-02-23": 1,
+            "2026-02-24": 0,
+            "2026-02-25": 0,
+            "2026-02-26": 1
+          },
+          "2_day_persistence": true,
+          "3_day_persistence": false,
+          "4_day_persistence": false,
+          "total_occurrences": 2,
+          "unique_days": 2
+        },
+        "steps_config": [
+          {
+            "action_type": "paste",
+            "details": {
+              "app_name": "Chrome",
+              "window_title": "Sample Window",
+              "event_type": "Paste",
+              "content": null,
+              "timestamp": "2026-02-23 12:34:00"
+            },
+            "validation_required": true
+          },
+          {
+            "action_type": "click",
+            "details": {
+              "app_name": "Slack",
+              "window_title": "Sample Window",
+              "event_type": "Click",
+              "x": 516,
+              "y": 117,
+              "timestamp": "2026-02-23 12:37:00"
+            },
+            "validation_required": true
+          }
+        ]
+      }
+    },
+    {
+      "pattern_id": "P_bc40c526",
+      "path": "output/generated_agents/P_bc40c526/agent.py",
+      "config": {
+        "pattern_id": "P_bc40c526",
+        "signature": "type->navigate",
+        "repetition_stats": {
+          "daily": {
+            "2026-02-23": 1,
+            "2026-02-24": 1,
+            "2026-02-25": 0,
+            "2026-02-26": 0
+          },
+          "2_day_persistence": true,
+          "3_day_persistence": false,
+          "4_day_persistence": false,
+          "total_occurrences": 2,
+          "unique_days": 2
+        },
+        "steps_config": [
+          {
+            "action_type": "type",
+            "details": {
+              "app_name": "Word",
+              "window_title": "Sample Window",
+              "event_type": "Type",
+              "text": "sample text",
+              "timestamp": "2026-02-23 13:29:00"
+            },
+            "validation_required": true
+          },
+          {
+            "action_type": "navigate",
+            "details": {
+              "app_name": "Word",
+              "window_title": "Sample Window",
+              "event_type": "Navigate",
+              "url": "https://example.com",
+              "timestamp": "2026-02-23 13:34:00"
+            },
+            "validation_required": true
+          }
+        ]
+      }
+    },
+    {
+      "pattern_id": "P_a31ad4f2",
+      "path": "output/generated_agents/P_a31ad4f2/agent.py",
+      "config": {
+        "pattern_id": "P_a31ad4f2",
+        "signature": "click->paste",
+        "repetition_stats": {
+          "daily": {
+            "2026-02-23": 1,
+            "2026-02-24": 0,
+            "2026-02-25": 0,
+            "2026-02-26": 1
+          },
+          "2_day_persistence": true,
+          "3_day_persistence": false,
+          "4_day_persistence": false,
+          "total_occurrences": 2,
+          "unique_days": 2
+        },
+        "steps_config": [
+          {
+            "action_type": "click",
+            "details": {
+              "app_name": "Slack",
+              "window_title": "Sample Window",
+              "event_type": "Click",
+              "x": 647,
+              "y": 571,
+              "timestamp": "2026-02-23 14:10:00"
+            },
+            "validation_required": true
+          },
+          {
+            "action_type": "paste",
+            "details": {
+              "app_name": "Chrome",
+              "window_title": "Sample Window",
+              "event_type": "Paste",
+              "content": null,
+              "timestamp": "2026-02-23 14:13:00"
+            },
+            "validation_required": true
+          }
+        ]
+      }
+    },
+    {
+      "pattern_id": "P_aeed254b",
+      "path": "output/generated_agents/P_aeed254b/agent.py",
+      "config": {
+        "pattern_id": "P_aeed254b",
+        "signature": "paste->type",
+        "repetition_stats": {
+          "daily": {
+            "2026-02-23": 0,
+            "2026-02-24": 1,
+            "2026-02-25": 1,
+            "2026-02-26": 0
+          },
+          "2_day_persistence": true,
+          "3_day_persistence": false,
+          "4_day_persistence": false,
+          "total_occurrences": 2,
+          "unique_days": 2
+        },
+        "steps_config": [
+          {
+            "action_type": "paste",
+            "details": {
+              "app_name": "Word",
+              "window_title": "Sample Window",
+              "event_type": "Paste",
+              "content": null,
+              "timestamp": "2026-02-24 10:55:00"
+            },
+            "validation_required": true
+          },
+          {
+            "action_type": "type",
+            "details": {
+              "app_name": "Chrome",
+              "window_title": "Sample Window",
+              "event_type": "Type",
+              "text": "sample text",
+              "timestamp": "2026-02-24 10:58:00"
+            },
+            "validation_required": true
+          }
+        ]
+      }
+    },
+    {
+      "pattern_id": "P_5e2f77df",
+      "path": "output/generated_agents/P_5e2f77df/agent.py",
+      "config": {
+        "pattern_id": "P_5e2f77df",
+        "signature": "type->copy",
+        "repetition_stats": {
+          "daily": {
+            "2026-02-23": 0,
+            "2026-02-24": 1,
+            "2026-02-25": 0,
+            "2026-02-26": 1
+          },
+          "2_day_persistence": true,
+          "3_day_persistence": false,
+          "4_day_persistence": false,
+          "total_occurrences": 2,
+          "unique_days": 2
+        },
+        "steps_config": [
+          {
+            "action_type": "type",
+            "details": {
+              "app_name": "Slack",
+              "window_title": "Sample Window",
+              "event_type": "Type",
+              "text": "sample text",
+              "timestamp": "2026-02-24 11:00:00"
+            },
+            "validation_required": true
+          },
+          {
+            "action_type": "copy",
+            "details": {
+              "app_name": "Chrome",
+              "window_title": "Sample Window",
+              "event_type": "Copy",
+              "content": null,
+              "timestamp": "2026-02-24 11:05:00"
+            },
+            "validation_required": true
+          }
+        ]
+      }
+    },
+    {
+      "pattern_id": "P_6f2e397d",
+      "path": "output/generated_agents/P_6f2e397d/agent.py",
+      "config": {
+        "pattern_id": "P_6f2e397d",
+        "signature": "navigate->click",
+        "repetition_stats": {
+          "daily": {
+            "2026-02-23": 0,
+            "2026-02-24": 1,
+            "2026-02-25": 0,
+            "2026-02-26": 1
+          },
+          "2_day_persistence": true,
+          "3_day_persistence": false,
+          "4_day_persistence": false,
+          "total_occurrences": 2,
+          "unique_days": 2
+        },
+        "steps_config": [
+          {
+            "action_type": "navigate",
+            "details": {
+              "app_name": "Chrome",
+              "window_title": "Sample Window",
+              "event_type": "Navigate",
+              "url": "https://example.com",
+              "timestamp": "2026-02-24 16:46:00"
+            },
+            "validation_required": true
+          },
+          {
+            "action_type": "click",
+            "details": {
+              "app_name": "Chrome",
+              "window_title": "Sample Window",
+              "event_type": "Click",
+              "x": 473,
+              "y": 178,
+              "timestamp": "2026-02-24 16:50:00"
+            },
+            "validation_required": true
+          }
+        ]
+      }
+    },
+    {
+      "pattern_id": "P_c5cd761d",
+      "path": "output/generated_agents/P_c5cd761d/agent.py",
+      "config": {
+        "pattern_id": "P_c5cd761d",
+        "signature": "click->click",
+        "repetition_stats": {
+          "daily": {
+            "2026-02-23": 0,
+            "2026-02-24": 0,
+            "2026-02-25": 1,
+            "2026-02-26": 1
+          },
+          "2_day_persistence": true,
+          "3_day_persistence": false,
+          "4_day_persistence": false,
+          "total_occurrences": 2,
+          "unique_days": 2
+        },
+        "steps_config": [
+          {
+            "action_type": "click",
+            "details": {
+              "app_name": "Word",
+              "window_title": "Sample Window",
+              "event_type": "Click",
+              "x": 743,
+              "y": 370,
+              "timestamp": "2026-02-25 15:53:00"
+            },
+            "validation_required": true
+          },
+          {
+            "action_type": "click",
+            "details": {
+              "app_name": "Chrome",
+              "window_title": "Sample Window",
+              "event_type": "Click",
+              "x": 558,
+              "y": 276,
+              "timestamp": "2026-02-25 16:21:00"
+            },
+            "validation_required": true
+          }
+        ]
+      }
+    },
+    {
+      "pattern_id": "P_8cc0f528",
+      "path": "output/generated_agents/P_8cc0f528/agent.py",
+      "config": {
+        "pattern_id": "P_8cc0f528",
+        "signature": "navigate->navigate",
+        "repetition_stats": {
+          "daily": {
+            "2026-02-23": 1,
+            "2026-02-24": 1,
+            "2026-02-25": 0,
+            "2026-02-26": 0
+          },
+          "2_day_persistence": true,
+          "3_day_persistence": false,
+          "4_day_persistence": false,
+          "total_occurrences": 2,
+          "unique_days": 2
+        },
+        "steps_config": [
+          {
+            "action_type": "navigate",
+            "details": {
+              "app_name": "Word",
+              "window_title": "Sample Window",
+              "event_type": "Navigate",
+              "url": "https://example.com",
+              "timestamp": "2026-02-23 11:57:00"
+            },
+            "validation_required": true
+          },
+          {
+            "action_type": "navigate",
+            "details": {
+              "app_name": "Slack",
+              "window_title": "Sample Window",
+              "event_type": "Navigate",
+              "url": "https://example.com",
+              "timestamp": "2026-02-23 11:59:00"
+            },
+            "validation_required": true
+          }
+        ]
+      }
+    },
+    {
+      "pattern_id": "P_6391216d",
+      "path": "output/generated_agents/P_6391216d/agent.py",
+      "config": {
+        "pattern_id": "P_6391216d",
+        "signature": "navigate->navigate->copy",
+        "repetition_stats": {
+          "daily": {
+            "2026-02-23": 1,
+            "2026-02-24": 1,
+            "2026-02-25": 0,
+            "2026-02-26": 0
+          },
+          "2_day_persistence": true,
+          "3_day_persistence": false,
+          "4_day_persistence": false,
+          "total_occurrences": 2,
+          "unique_days": 2
+        },
+        "steps_config": [
+          {
+            "action_type": "navigate",
+            "details": {
+              "app_name": "Word",
+              "window_title": "Sample Window",
+              "event_type": "Navigate",
+              "url": "https://example.com",
+              "timestamp": "2026-02-23 11:57:00"
+            },
+            "validation_required": true
+          },
+          {
+            "action_type": "navigate",
+            "details": {
+              "app_name": "Slack",
+              "window_title": "Sample Window",
+              "event_type": "Navigate",
+              "url": "https://example.com",
+              "timestamp": "2026-02-23 11:59:00"
+            },
+            "validation_required": true
+          },
+          {
+            "action_type": "copy",
+            "details": {
+              "app_name": "Word",
+              "window_title": "Sample Window",
+              "event_type": "Copy",
+              "content": null,
+              "timestamp": "2026-02-23 12:02:00"
+            },
+            "validation_required": true
+          }
+        ]
+      }
+    },
+    {
+      "pattern_id": "P_a440c34c",
+      "path": "output/generated_agents/P_a440c34c/agent.py",
+      "config": {
+        "pattern_id": "P_a440c34c",
+        "signature": "navigate->paste",
+        "repetition_stats": {
+          "daily": {
+            "2026-02-23": 1,
+            "2026-02-24": 0,
+            "2026-02-25": 1,
+            "2026-02-26": 0
+          },
+          "2_day_persistence": true,
+          "3_day_persistence": false,
+          "4_day_persistence": false,
+          "total_occurrences": 2,
+          "unique_days": 2
+        },
+        "steps_config": [
+          {
+            "action_type": "navigate",
+            "details": {
+              "app_name": "Excel",
+              "window_title": "Sample Window",
+              "event_type": "Navigate",
+              "url": "https://example.com",
+              "timestamp": "2026-02-23 12:49:00"
+            },
+            "validation_required": true
+          },
+          {
+            "action_type": "paste",
+            "details": {
+              "app_name": "Excel",
+              "window_title": "Sample Window",
+              "event_type": "Paste",
+              "content": null,
+              "timestamp": "2026-02-23 12:50:00"
+            },
+            "validation_required": true
+          }
+        ]
+      }
+    },
+    {
+      "pattern_id": "P_8f9d291e",
+      "path": "output/generated_agents/P_8f9d291e/agent.py",
+      "config": {
+        "pattern_id": "P_8f9d291e",
+        "signature": "paste->navigate",
+        "repetition_stats": {
+          "daily": {
+            "2026-02-23": 1,
+            "2026-02-24": 0,
+            "2026-02-25": 1,
+            "2026-02-26": 0
+          },
+          "2_day_persistence": true,
+          "3_day_persistence": false,
+          "4_day_persistence": false,
+          "total_occurrences": 2,
+          "unique_days": 2
+        },
+        "steps_config": [
+          {
+            "action_type": "paste",
+            "details": {
+              "app_name": "Word",
+              "window_title": "Sample Window",
+              "event_type": "Paste",
+              "content": null,
+              "timestamp": "2026-02-23 13:00:00"
+            },
+            "validation_required": true
+          },
+          {
+            "action_type": "navigate",
+            "details": {
+              "app_name": "Excel",
+              "window_title": "Sample Window",
+              "event_type": "Navigate",
+              "url": "https://example.com",
+              "timestamp": "2026-02-23 13:05:00"
+            },
+            "validation_required": true
+          }
+        ]
+      }
+    },
+    {
+      "pattern_id": "P_d9755a7d",
+      "path": "output/generated_agents/P_d9755a7d/agent.py",
+      "config": {
+        "pattern_id": "P_d9755a7d",
+        "signature": "paste->app_switch",
+        "repetition_stats": {
+          "daily": {
+            "2026-02-23": 0,
+            "2026-02-24": 1,
+            "2026-02-25": 0,
+            "2026-02-26": 1
+          },
+          "2_day_persistence": true,
+          "3_day_persistence": false,
+          "4_day_persistence": false,
+          "total_occurrences": 2,
+          "unique_days": 2
+        },
+        "steps_config": [
+          {
+            "action_type": "paste",
+            "details": {
+              "app_name": "Chrome",
+              "window_title": "Sample Window",
+              "event_type": "Paste",
+              "content": null,
+              "timestamp": "2026-02-24 09:55:00"
+            },
+            "validation_required": true
+          },
+          {
+            "action_type": "app_switch",
+            "details": {
+              "app_name": "Slack",
+              "window_title": "Sample Window",
+              "event_type": "App Switch",
+              "timestamp": "2026-02-24 09:56:00"
+            },
+            "validation_required": true
+          }
+        ]
+      }
+    },
+    {
+      "pattern_id": "P_324eedb5",
+      "path": "output/generated_agents/P_324eedb5/agent.py",
+      "config": {
+        "pattern_id": "P_324eedb5",
+        "signature": "navigate->copy->navigate",
+        "repetition_stats": {
+          "daily": {
+            "2026-02-23": 0,
+            "2026-02-24": 1,
+            "2026-02-25": 1,
+            "2026-02-26": 0
+          },
+          "2_day_persistence": true,
+          "3_day_persistence": false,
+          "4_day_persistence": false,
+          "total_occurrences": 2,
+          "unique_days": 2
+        },
+        "steps_config": [
+          {
+            "action_type": "navigate",
+            "details": {
+              "app_name": "Word",
+              "window_title": "Sample Window",
+              "event_type": "Navigate",
+              "url": "https://example.com",
+              "timestamp": "2026-02-24 10:21:00"
+            },
+            "validation_required": true
+          },
+          {
+            "action_type": "copy",
+            "details": {
+              "app_name": "Chrome",
+              "window_title": "Sample Window",
+              "event_type": "Copy",
+              "content": null,
+              "timestamp": "2026-02-24 10:22:00"
+            },
+            "validation_required": true
+          },
+          {
+            "action_type": "navigate",
+            "details": {
+              "app_name": "Word",
+              "window_title": "Sample Window",
+              "event_type": "Navigate",
+              "url": "https://example.com",
+              "timestamp": "2026-02-24 10:25:00"
+            },
+            "validation_required": true
+          }
+        ]
+      }
+    },
+    {
+      "pattern_id": "P_800cd65a",
+      "path": "output/generated_agents/P_800cd65a/agent.py",
+      "config": {
+        "pattern_id": "P_800cd65a",
+        "signature": "copy->navigate",
+        "repetition_stats": {
+          "daily": {
+            "2026-02-23": 0,
+            "2026-02-24": 1,
+            "2026-02-25": 1,
+            "2026-02-26": 0
+          },
+          "2_day_persistence": true,
+          "3_day_persistence": false,
+          "4_day_persistence": false,
+          "total_occurrences": 2,
+          "unique_days": 2
+        },
+        "steps_config": [
+          {
+            "action_type": "copy",
+            "details": {
+              "app_name": "Chrome",
+              "window_title": "Sample Window",
+              "event_type": "Copy",
+              "content": null,
+              "timestamp": "2026-02-24 10:22:00"
+            },
+            "validation_required": true
+          },
+          {
+            "action_type": "navigate",
+            "details": {
+              "app_name": "Word",
+              "window_title": "Sample Window",
+              "event_type": "Navigate",
+              "url": "https://example.com",
+              "timestamp": "2026-02-24 10:25:00"
+            },
+            "validation_required": true
+          }
+        ]
+      }
+    },
+    {
+      "pattern_id": "P_99a3fa58",
+      "path": "output/generated_agents/P_99a3fa58/agent.py",
+      "config": {
+        "pattern_id": "P_99a3fa58",
+        "signature": "click->app_switch",
+        "repetition_stats": {
+          "daily": {
+            "2026-02-23": 0,
+            "2026-02-24": 0,
+            "2026-02-25": 0,
+            "2026-02-26": 2
+          },
+          "2_day_persistence": false,
+          "3_day_persistence": false,
+          "4_day_persistence": false,
+          "total_occurrences": 2,
+          "unique_days": 1
+        },
+        "steps_config": [
+          {
+            "action_type": "click",
+            "details": {
+              "app_name": "Slack",
+              "window_title": "Sample Window",
+              "event_type": "Click",
+              "x": 248,
+              "y": 481,
+              "timestamp": "2026-02-26 11:41:00"
+            },
+            "validation_required": true
+          },
+          {
+            "action_type": "app_switch",
+            "details": {
+              "app_name": "Word",
+              "window_title": "Sample Window",
+              "event_type": "App Switch",
+              "timestamp": "2026-02-26 11:43:00"
+            },
+            "validation_required": true
+          }
+        ]
+      }
+    },
+    {
+      "pattern_id": "P_186ccf16",
+      "path": "output/generated_agents/P_186ccf16/agent.py",
+      "config": {
+        "pattern_id": "P_186ccf16",
+        "signature": "click->copy",
+        "repetition_stats": {
+          "daily": {
+            "2026-02-23": 0,
+            "2026-02-24": 0,
+            "2026-02-25": 0,
+            "2026-02-26": 2
+          },
+          "2_day_persistence": false,
+          "3_day_persistence": false,
+          "4_day_persistence": false,
+          "total_occurrences": 2,
+          "unique_days": 1
+        },
+        "steps_config": [
+          {
+            "action_type": "click",
+            "details": {
+              "app_name": "Word",
+              "window_title": "Sample Window",
+              "event_type": "Click",
+              "x": 739,
+              "y": 465,
+              "timestamp": "2026-02-26 12:23:00"
+            },
+            "validation_required": true
+          },
+          {
+            "action_type": "copy",
+            "details": {
+              "app_name": "Word",
+              "window_title": "Sample Window",
+              "event_type": "Copy",
+              "content": null,
+              "timestamp": "2026-02-26 12:26:00"
+            },
+            "validation_required": true
+          }
+        ]
+      }
+    }
+  ]
+}

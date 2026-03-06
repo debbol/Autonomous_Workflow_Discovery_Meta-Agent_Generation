@@ -47,7 +47,7 @@ class DataLoader:
         query = """
         SELECT 
             c.id as capture_id,
-            c.event_id,
+            c.event_id as capture_event_id,
             c.timestamp as capture_timestamp,
             c.image_path,
             c.id_employee,
@@ -97,7 +97,7 @@ class DataLoader:
             
             capture = Capture(
                 id=int(row['capture_id']),
-                event_id=int(row['event_id']) if pd.notna(row['event_id']) else None,
+                event_id=int(row['capture_event_id']) if pd.notna(row['capture_event_id']) else None,
                 timestamp=datetime.fromisoformat(row['capture_timestamp']),
                 image_path=row['image_path'],
                 id_employee=row['id_employee'],

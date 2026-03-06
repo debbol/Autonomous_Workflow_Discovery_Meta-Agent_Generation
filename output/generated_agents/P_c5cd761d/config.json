@@ -1,0 +1,43 @@
+{
+  "pattern_id": "P_c5cd761d",
+  "signature": "click->click",
+  "repetition_stats": {
+    "daily": {
+      "2026-02-23": 2,
+      "2026-02-24": 0,
+      "2026-02-25": 0,
+      "2026-02-26": 0
+    },
+    "2_day_persistence": false,
+    "3_day_persistence": false,
+    "4_day_persistence": false,
+    "total_occurrences": 2,
+    "unique_days": 1
+  },
+  "steps_config": [
+    {
+      "action_type": "click",
+      "details": {
+        "app_name": "Chrome",
+        "window_title": "Sample Window",
+        "event_type": "Click",
+        "x": 591,
+        "y": 122,
+        "timestamp": "2026-02-23 13:11:00"
+      },
+      "validation_required": true
+    },
+    {
+      "action_type": "click",
+      "details": {
+        "app_name": "Chrome",
+        "window_title": "Sample Window",
+        "event_type": "Click",
+        "x": 894,
+        "y": 350,
+        "timestamp": "2026-02-23 13:13:00"
+      },
+      "validation_required": true
+    }
+  ]
+}

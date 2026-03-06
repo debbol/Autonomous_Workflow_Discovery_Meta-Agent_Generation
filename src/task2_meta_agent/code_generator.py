@@ -1,26 +1,26 @@
 # src/task2_meta_agent/code_generator.py
+from ast import Load
 from typing import List, Dict, Any
 from ..models.workflow_schema import WorkflowPattern, Workflow, WorkflowStep
 
 class CodeGenerator:
     def __init__(self):
         self.template = self._load_template()
-        
     def _load_template(self) -> str:
         """Load base agent template"""
         return '''"""
-Autonomous Agent for Workflow: {workflow_id}
-Pattern: {pattern_id}
-Generated: {timestamp}
-"""
+    Autonomous Agent for Workflow: {workflow_id}
+    Pattern: {pattern_id}
+    Generated: {timestamp}
+    """
 
-import pyautogui
-import time
-import logging
-import json
-from pathlib import Path
-import subprocess
-from datetime import datetime
+    import pyautogui
+    import time
+    import logging
+    import json
+    from pathlib import Path
+    import subprocess
+    from datetime import datetime
 
 class AutonomousAgent:
     def __init__(self, config_path: str = None):
@@ -49,7 +49,7 @@ class AutonomousAgent:
         
         for step_num, step_func in enumerate(self.workflow_steps):
             self.current_step = step_num
-            self.logger.info(f"Executing step {step_num + 1}/{len(self.workflow_steps)}")
+            self.logger.info(f"Executing step {{step_num + 1}}/{{len(self.workflow_steps)}}")
             
             for attempt in range(self.max_retries):
                 try:
@@ -57,10 +57,10 @@ class AutonomousAgent:
                     if self._validate_step(result):
                         break
                     else:
-                        self.logger.warning(f"Step validation failed, retry {attempt + 1}")
+                        self.logger.warning(f"Step validation failed, retry {{attempt + 1}}")
                         time.sleep(1)
                 except Exception as e:
-                    self.logger.error(f"Step execution error: {e}")
+                    self.logger.error(f"Step execution error: {{e}}")
                     if attempt == self.max_retries - 1:
                         raise
                     time.sleep(2)
@@ -88,8 +88,7 @@ def main():
 
 if __name__ == '__main__':
     main()
-'''
-    
+'''    
     def generate_agent(self, pattern: WorkflowPattern, 
                         template_workflow: Workflow) -> str:
         """Generate agent code for a workflow pattern"""

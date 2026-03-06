@@ -1,0 +1,41 @@
+{
+  "pattern_id": "P_a440c34c",
+  "signature": "navigate->paste",
+  "repetition_stats": {
+    "daily": {
+      "2026-02-23": 0,
+      "2026-02-24": 0,
+      "2026-02-25": 2,
+      "2026-02-26": 0
+    },
+    "2_day_persistence": false,
+    "3_day_persistence": false,
+    "4_day_persistence": false,
+    "total_occurrences": 2,
+    "unique_days": 1
+  },
+  "steps_config": [
+    {
+      "action_type": "navigate",
+      "details": {
+        "app_name": "Excel",
+        "window_title": "Sample Window",
+        "event_type": "Navigate",
+        "url": "https://example.com",
+        "timestamp": "2026-02-25 09:45:00"
+      },
+      "validation_required": true
+    },
+    {
+      "action_type": "paste",
+      "details": {
+        "app_name": "Chrome",
+        "window_title": "Sample Window",
+        "event_type": "Paste",
+        "content": null,
+        "timestamp": "2026-02-25 09:47:00"
+      },
+      "validation_required": true
+    }
+  ]
+}

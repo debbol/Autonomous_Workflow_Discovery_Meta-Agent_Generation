@@ -1,0 +1,41 @@
+{
+  "pattern_id": "P_92dba359",
+  "signature": "app_switch->click",
+  "repetition_stats": {
+    "daily": {
+      "2026-02-23": 1,
+      "2026-02-24": 0,
+      "2026-02-25": 0,
+      "2026-02-26": 1
+    },
+    "2_day_persistence": true,
+    "3_day_persistence": false,
+    "4_day_persistence": false,
+    "total_occurrences": 2,
+    "unique_days": 2
+  },
+  "steps_config": [
+    {
+      "action_type": "app_switch",
+      "details": {
+        "app_name": "Word",
+        "window_title": "Sample Window",
+        "event_type": "App Switch",
+        "timestamp": "2026-02-23 10:51:00"
+      },
+      "validation_required": true
+    },
+    {
+      "action_type": "click",
+      "details": {
+        "app_name": "Slack",
+        "window_title": "Sample Window",
+        "event_type": "Click",
+        "x": 200,
+        "y": 754,
+        "timestamp": "2026-02-23 10:53:00"
+      },
+      "validation_required": true
+    }
+  ]
+}
