@@ -4,13 +4,13 @@
     Generated: 2026-03-06T17:12:06.768243
     """
 
-    import pyautogui
-    import time
-    import logging
-    import json
-    from pathlib import Path
-    import subprocess
-    from datetime import datetime
+import pyautogui
+import time
+import logging
+import json
+from pathlib import Path
+import subprocess
+from datetime import datetime
 
 class AutonomousAgent:
     def __init__(self, config_path: str = None):
