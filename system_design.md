@@ -1,4 +1,5 @@
 # System Design Document: Autonomous Workflow Discovery & Meta-Agent Generation
+# System Design Document: Autonomous Workflow Discovery & Meta-Agent Generation
 
 ## Project File Structure
 workflow-discovery-agent/
@@ -54,6 +55,7 @@ output/
 │ └── ... (additional pattern folders)
 └── generation_summary.json # Summary of all generated agents
 
+text
 
 ## 1. Overview
 This system analyzes desktop activity data from a SQLite database, extracts workflows from user actions and screenshots, and dynamically generates autonomous agents to execute these workflows.
@@ -135,5 +137,6 @@ The system is designed to be extended with:
 - Computer vision integration for screenshot analysis
 - Machine learning for improved pattern matching
 - Cloud deployment capabilities
+
 
 
